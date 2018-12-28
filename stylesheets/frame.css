@@ -69,6 +69,17 @@ body {
   vertical-align: middle;
 }
 
+/* Project */
+.project {
+  border-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-collapse: separate;
+  border-spacing: 20px;
+  margin: 0px;
+  padding: 20px;
+}
+
 /* Multi-use Gradient */
 #grad1 {
   background-image: linear-gradient(#4682b4, #000000);
