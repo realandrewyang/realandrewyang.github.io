@@ -49,13 +49,14 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 40px;
+  color: black;
   text-decoration: underline;
 }
 
 /* Style the contact text */
 .contact-text {
   color: black;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   font-style: normal;
   text-decoration: none;
