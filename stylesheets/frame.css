@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #ffffff;
-  height: 590px;
+  height: calc(100vh - 132px);
   margin: 10px;
   padding: 30px;
 }
@@ -92,8 +92,8 @@ body {
 #background-image{
   background-image: url("../assets/background-home.jpg"); /* The image used */
   background-color: #ddd;; /* Used if the image is unavailable */
-  height: 680px; /* You must set a specified height */
-  width: 1518px;
+  height: 100vh; /* You must set a specified height */
+  width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
